@@ -6,11 +6,15 @@ import org.ini4j.Ini;
 import org.ini4j.Profile.Section;
 import org.junit.Test;
 
-import java.io.*;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.util.Arrays;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
+
 
 public class Ini4JTest {
     @Test
